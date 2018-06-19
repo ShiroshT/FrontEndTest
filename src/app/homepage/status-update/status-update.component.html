@@ -1,0 +1,17 @@
+<div class="card mb-3 border border-info">
+    <div class="card-body">
+      <form (ngSubmit) = "onSubmit()" #f="ngForm">
+        <div class="form-group">
+            <textarea class="form-control align-text-bottom"
+                      placeholder="Let us know your thoughts!"
+                      id="exampleTextarea"
+                      rows="5"
+                      ngModel
+                      name="statusupdate"></textarea>
+
+        </div>
+        <button type="submit" class="btn btn-dark">Dark</button>
+      </form>
+    </div>
+
+</div>
